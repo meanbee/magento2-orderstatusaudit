@@ -8,6 +8,12 @@ Install this extension with Composer:
 
     composer require meanbee/magento2-orderstatusaudit
 
+# Usage
+
+The `sales_order_status_audit` table is automatically updated using database triggers whenever an order status changes.
+
+You can view the log of the order status in the "Order Status History" tab on the order page in the admin area.
+
 ## Development
 
 ### Docker Environment
