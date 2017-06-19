@@ -1,0 +1,13 @@
+<?php /** @var \Meanbee\OrderStatusAudit\Block\Adminhtml\Order\View\Tab\StatusHistory $block */ ?>
+<section class="admin_page-section edit-order-comments">
+    <ul class="note-list">
+        <?php foreach ($block->getStatusHistory() as $item): ?>
+            <?php /** @var \Meanbee\OrderStatusAudit\Model\Order\Status\Audit $item */ ?>
+            <li class="note-list-item">
+                <span class="note-list-date"><?php echo $block->formatCreatedAt($item) ?></span>
+                <span class="note-list-time"><?php echo $block->formatCreatedAt($item, "time") ?></span>
+                <span class="note-list-status"><?php echo $block->formatStatus($item) ?></span>
+            </li>
+        <?php endforeach; ?>
+    </ul>
+</section>
