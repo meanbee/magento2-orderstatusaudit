@@ -20,7 +20,8 @@
   },
   "require": {
     "php": ">=7.0",
-    "magento/framework": "^100.1.7"
+    "magento/framework": "^100.1.0",
+    "magento/module-sales": "^100.1.0"
   },
   "autoload": {
     "files": [
