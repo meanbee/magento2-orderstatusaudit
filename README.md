@@ -14,6 +14,8 @@ The `sales_order_status_audit` table is automatically updated using database tri
 
 You can view the log of the order status in the "Order Status History" tab on the order page in the admin area.
 
+![screenshot](https://user-images.githubusercontent.com/613076/27288505-d227379c-54fe-11e7-883e-557f51ada995.png)
+
 ## Development
 
 ### Docker Environment
